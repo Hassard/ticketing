@@ -1,4 +1,4 @@
-import mongoose, { modelNames } from 'mongoose';
+import mongoose from 'mongoose';
 import { Order, OrderStatus } from './order';
 
 interface TicketAttrs {
