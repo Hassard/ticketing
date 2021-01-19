@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: orders
-          image: rhassard/orders
+          image: rhassard/orders:latest
           env: 
             - name: MONGO_URI
               value: 'mongodb://orders-mongo-srv:27017/orders'
