@@ -15,7 +15,8 @@ app.use(
   cookieSession({
     signed: false,
     // Test using supertest which is http ... so http for test, https for prod
-    secure: process.env.NODE_ENV !== 'test'
+    //secure: process.env.NODE_ENV !== 'test'
+    secure: false
   })
 );
 app.use(currentUser);
