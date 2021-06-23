@@ -6,6 +6,7 @@ import { validateRequest, BadRequestError } from '@rhtickets/common';
 import { Password } from '../services/password';
 import { User } from '../models/user';
 
+// Create my router
 const router = express.Router();
 
 router.post('/api/users/signin', 
